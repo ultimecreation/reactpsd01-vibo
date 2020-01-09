@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap");
+
+/////////////////
+// RESET
+/////////////////
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+p,
+ul {
+  color: #7e8099;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/////////////////
+// NAVBAR
+/////////////////
+.navbar__top {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  align-items: center;
+
+  .logo {
+    color: aqua;
+    width: 100px;
+  }
+  nav a {
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+/////////////////
+// HOME
+/////////////////
+#home {
+  background: url("/img/Hero-Background.png") center center / cover;
+
+  .hero {
+    margin: 150px auto 0 auto;
+    text-align: center;
+
+    .hero__text {
+      color: white;
+
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        margin-top: 2rem;
+        font-size: 1rem;
+      }
+    }
+    .hero__call-to-action {
+      margin-top: 3rem;
+      button {
+        padding: 0.75rem;
+        border-radius: 10px;
+        background: #ffffff;
+        border: 1px white solid;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      button:nth-child(2) {
+        margin-left: 2rem;
+        background: transparent;
+        color: white;
+      }
+    }
+    .hero__phone {
+      position: relative;
+      bottom: -5rem;
+    }
+  }
+}
+
+/////////////////
+// ABOUT
+/////////////////
+/////////////////
+// ABOUT-FIRST
+/////////////////
+.about-first {
+  background: url("/img/Marketing1-Background.png") center center/cover;
+  height: 1100px;
+  position: relative;
+  top: -140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .about-first__phone img {
+    margin: 20px;
+    height: 560px;
+    width: 260px;
+    margin-bottom: 430px auto 250px auto;
+    position: relative;
+    bottom: -150px;
+  }
+  .about-first__adds {
+    width: 670px;
+    min-width: 620px;
+    position: relative;
+    .about-first__adds__single {
+      position: absolute;
+      text-align: center;
+      padding: 1rem;
+      width: 270px;
+      background: white;
+      box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.1);
+      img {
+        margin-top: 4rem;
+      }
+      h5 {
+        font-weight: 600;
+        margin: 2rem auto;
+        font-size: 1rem;
+      }
+      p {
+        margin-bottom: 2.5rem;
+      }
+
+      &:nth-child(1) {
+        bottom: 0;
+        left: 70px;
+      }
+      &:nth-child(2) {
+        bottom: -70px;
+        right: 0;
+      }
+      &:nth-child(3) {
+        top: 0;
+        left: 0;
+        margin-top: 70px;
+      }
+      &:nth-child(4) {
+        top: 70px;
+        right: 70px;
+        margin-top: 70px;
+      }
+    }
+  }
+}
+/////////////////
+// ABOUT-SECOND
+/////////////////
+.about-second {
+  display: flex;
+  height: 630px;
+  background: #ffffff;
+  justify-content: space-between;
+
+  .about-second__left {
+    max-width: 470px;
+    text-align: right;
+    margin: 0 20px;
+    h2 {
+      margin-top: 6rem;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    p {
+      margin-top: 4rem;
+    }
+    button {
+      margin-top: 2rem;
+      padding: 1rem 3rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: white;
+      background: #33d2fd;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .about-second__right {
+    max-width: 540px;
+    width: 100%;
+    .about-second__right__single-card {
+      box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.1);
+      margin: 1.4rem 1rem 1.4rem 0;
+      display: flex;
+      img {
+        margin: 2rem 1rem;
+        height: 1.7rem;
+      }
+      div {
+        h5 {
+          margin-top: 2rem;
+          font-size: 1rem;
+          font-weight: 600;
+        }
+        p {
+          display: none;
+        }
+      }
+      &:hover {
+        background: #33d2fd;
+        p {
+          padding: 1rem 0;
+          display: inline-block;
+          color: white;
+        }
+      }
+    }
+  }
+}
+/////////////////
+// ABOUT-THIRD
+/////////////////
+.about-third {
+  display: flex;
+  // height: 475px;
+  background: #fafafc;
+  justify-content: space-between;
+
+  .about-third__left {
+    img {
+      min-width: 530px;
+      margin-top: 3rem;
+    }
+  }
+  .about-third__right {
+    max-width: 470px;
+    h5 {
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .android,
+    .ios {
+      display: flex;
+      margin: 1.5rem auto;
+
+      img {
+        margin-right: 1rem;
+      }
+      h6 {
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    }
+    p {
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+    }
+  }
+}
+/////////////////
+// APP
+/////////////////
+#app {
+  background: url("/img/Marketing4-Vector-Bg.png") center center/cover;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+
+  .app-container {
+    display: flex;
+
+    img {
+      margin: 6rem 10rem;
+    }
+    .app-container__card {
+      width: 50%;
+      margin-top: 260px;
+      h5 {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      p {
+        max-width: 450px;
+        color: white;
+        margin-top: 2.5rem;
+        margin-bottom: -2rem;
+        font-size: 1rem;
+      }
+      .app-container__card__icons {
+        display: flex;
+
+        img {
+          width: 160px;
+        }
+        img:nth-child(1) {
+          margin-left: 0;
+        }
+        img:nth-child(2) {
+          margin-left: -130px;
+        }
+      }
+    }
+  }
+  button {
+    position: absolute;
+    bottom: -35px;
+    width: 370px;
+    height: 70px;
+    background: linear-gradient(#fe7570, #f73987);
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+/////////////////
+// INFO
+/////////////////
+.info-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 9rem;
+
+  .info-links__single {
+    h5 {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    ul {
+      margin-top: 1rem;
+      list-style: none;
+      li {
+        padding: 0.5rem 0;
+      }
+    }
+  }
+}
+.info-newsletter {
+  text-align: center;
+  margin-top: 6.5rem;
+
+  p {
+    margin-top: 2rem;
+  }
+  form {
+    margin: 4.5rem auto;
+    max-width: 770px;
+    display: flex;
+    justify-content: space-between;
+    input {
+      width: 100%;
+      height: 3rem;
+      background: #f6f7fb;
+      border: none;
+    }
+    input[type="submit"] {
+      max-width: 170px;
+      margin-left: 2rem;
+      background: #33d2fd;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}
+/////////////////
+// INFO
+/////////////////
+.footer {
+  background: #233148;
+  padding: 2rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.social-links a {
+  margin: 0 1.5rem;
+  &:nth-child(5) {
+    margin: 0 0 0 1.5rem;
+  }
+}
