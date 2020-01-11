@@ -28,7 +28,9 @@ const Application = () => {
           </div>
         </div>
       </div>
-      <button>GET THE APP TODAY</button>
+      <div className="button">
+        <button>GET THE APP TODAY</button>
+      </div>
     </section>
   );
 };
