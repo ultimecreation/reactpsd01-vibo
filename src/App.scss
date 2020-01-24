@@ -204,7 +204,7 @@ body {
   .about-second__right {
     .about-second__right__single-card {
       box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.1);
-      width: 90vw;
+      width: 90%;
       margin: 20px auto;
       display: flex;
       img {
@@ -285,7 +285,7 @@ body {
       display: none;
     }
     .app-container__card {
-      padding: 100px;
+      padding: 10px;
       h5 {
         font-size: 2rem;
         font-weight: 700;
@@ -298,6 +298,7 @@ body {
       }
       .app-container__card__icons {
         display: flex;
+        flex-direction: column;
         img {
           margin: 80px auto 20px auto;
           display: block;
@@ -329,16 +330,17 @@ body {
 /////////////////
 .info-links {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 9rem;
-
+  justify-content: space-around;
+  margin-top: 5rem;
+  width: 100%;
   .info-links__single {
+    width: 20%;
     h5 {
-      font-size: 1rem;
+      font-size: 0.8rem;
       font-weight: 600;
     }
     ul {
-      margin-top: 1rem;
+      margin-top: 0.6rem;
       list-style: none;
       li {
         padding: 0.5rem 0;
@@ -380,12 +382,23 @@ body {
   background: #233148;
   padding: 2rem 0.5rem;
   display: flex;
-  justify-content: space-between;
-}
-.social-links a {
-  margin: 0 1.5rem;
-  &:nth-child(5) {
-    margin: 0 0 0 1.5rem;
+  flex-direction: column;
+  text-align: center;
+  p {
+    display: block;
+    width: 100%;
+  }
+  .social-links {
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+
+    a {
+      margin: 0 0.5rem;
+      &:nth-child(5) {
+        margin: 0 0 0 1.5rem;
+      }
+    }
   }
 }
 
@@ -678,6 +691,7 @@ body {
         }
         .app-container__card__icons {
           display: flex;
+          flex-direction: row;
 
           img {
             width: 160px;
@@ -710,6 +724,7 @@ body {
   .info-links {
     display: flex;
     justify-content: space-evenly;
+
     margin-top: 9rem;
 
     .info-links__single {
@@ -760,12 +775,17 @@ body {
     background: #233148;
     padding: 2rem 0.5rem;
     display: flex;
+    flex-direction: row;
+    align-items: baseline;
     justify-content: space-between;
   }
-  .social-links a {
-    margin: 0 1.5rem;
-    &:nth-child(5) {
-      margin: 0 0 0 1.5rem;
+  .social-links {
+    margin-top: 0;
+    a {
+      margin: 0 1.5rem;
+      &:nth-child(5) {
+        margin: 0 0 0 1.5rem;
+      }
     }
   }
 }
