@@ -43,6 +43,7 @@ const Info = () => {
           sutff.
         </p>
         <form>
+          <label htmlFor="email"></label>
           <input type="email" name="email" id="email" />
           <input type="submit" value="COUNT ME IN" />
         </form>

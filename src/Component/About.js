@@ -73,7 +73,7 @@ const About = () => {
           <div className="about-second__right__single-card">
             <img
               src={`${process.env.PUBLIC_URL}/img/Marketing2-Icon1.png`}
-              alt=""
+              alt="marketing icon 1"
             />
             <div>
               <h5>Made With Love</h5>
@@ -86,7 +86,7 @@ const About = () => {
           <div className="about-second__right__single-card">
             <img
               src={`${process.env.PUBLIC_URL}/img/Marketing2-Icon2.png`}
-              alt=""
+              alt="marketing icon 2"
             />
             <div>
               <h5>Free of Use</h5>
@@ -99,7 +99,7 @@ const About = () => {
           <div className="about-second__right__single-card">
             <img
               src={`${process.env.PUBLIC_URL}/img/Marketing2-Icon3.png`}
-              alt=""
+              alt="marketing icon 3"
             />
             <div>
               <h5>Fully Support Available</h5>
@@ -112,7 +112,7 @@ const About = () => {
           <div className="about-second__right__single-card">
             <img
               src={`${process.env.PUBLIC_URL}/img/Marketing2-Icon4.png`}
-              alt=""
+              alt="marketing icon 4"
             />
             <div>
               <h5>Flat and Modern UI & UX</h5>
@@ -128,7 +128,7 @@ const About = () => {
         <div className="about-third__left">
           <img
             src={`${process.env.PUBLIC_URL}/img/Marketing3-Vector-Code-Illustration.png`}
-            alt=""
+            alt="marketing illustration"
           />
         </div>
         <div className="about-third__right">
@@ -136,14 +136,14 @@ const About = () => {
           <div className="android">
             <img
               src={`${process.env.PUBLIC_URL}/img/Marketing3-checked.png`}
-              alt=""
+              alt="marketing checked"
             />
             <h6>Android</h6>
           </div>
           <div className="ios">
             <img
               src={`${process.env.PUBLIC_URL}/img/Marketing3-checked.png`}
-              alt=""
+              alt="marketing checked"
             />
             <h6>IPhone</h6>
           </div>

@@ -6,7 +6,7 @@ const Application = () => {
       <div className="app-container">
         <img
           src={`${process.env.PUBLIC_URL}/img/Marketing4-Phone.png`}
-          alt=""
+          alt="phone"
         />
         <div className="app-container__card">
           <h5>Now Available</h5>
@@ -19,11 +19,11 @@ const Application = () => {
           <div className="app-container__card__icons">
             <img
               src={`${process.env.PUBLIC_URL}/img/Martketing4-iOS.png`}
-              alt=""
+              alt="ios"
             />
             <img
               src={`${process.env.PUBLIC_URL}/img/Marketing4-Google.png`}
-              alt=""
+              alt="google"
             />
           </div>
         </div>

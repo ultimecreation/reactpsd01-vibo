@@ -14,25 +14,25 @@ const Footer = () => {
         <a href="">
           <img
             src={`${process.env.PUBLIC_URL}/img/Footer-Twitter.png`}
-            alt="facebook"
+            alt="twitter"
           />
         </a>
         <a href="">
           <img
             src={`${process.env.PUBLIC_URL}/img/Footer-Dribble.png`}
-            alt="facebook"
+            alt="dribble"
           />
         </a>
         <a href="">
           <img
             src={`${process.env.PUBLIC_URL}/img/Footer-Google.png`}
-            alt="facebook"
+            alt="google"
           />
         </a>
         <a href="">
           <img
             src={`${process.env.PUBLIC_URL}/img/Footer-Youtube.png`}
-            alt="facebook"
+            alt="youtube"
           />
         </a>
       </div>
