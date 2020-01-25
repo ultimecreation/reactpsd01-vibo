@@ -18,11 +18,11 @@ const Application = () => {
           </p>
           <div className="app-container__card__icons">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Marketing4-Google.png`}
+              src={`${process.env.PUBLIC_URL}/img/Martketing4-iOS.png`}
               alt=""
             />
             <img
-              src={`${process.env.PUBLIC_URL}/img/Martketing4-iOS.png`}
+              src={`${process.env.PUBLIC_URL}/img/Marketing4-Google.png`}
               alt=""
             />
           </div>
