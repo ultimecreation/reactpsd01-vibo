@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="navbar__top">
       <div className="logo">
-        <img src={`${process.env.PUBLIC_URL}/img/logo.png`} />
+        <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="logo" />
       </div>
       <nav>
         <NavLink
